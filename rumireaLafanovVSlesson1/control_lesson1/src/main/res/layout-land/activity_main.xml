@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="426dp"
+        android:layout_height="65dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="5dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="217dp"
+            android:layout_height="match_parent"
+            android:text="Name:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="207dp"
+            android:layout_height="match_parent"
+            android:text="Bart"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="358dp"
+        android:layout_height="237dp"
+        app:srcCompat="@drawable/c35faf75f5777cb6d6fc0afa908d9aa0"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="425dp"
+        android:layout_height="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="217dp"
+            android:layout_height="match_parent"
+            android:text="Organization:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="207dp"
+            android:layout_height="match_parent"
+            android:text="MIREA"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="423dp"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow2">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/stat_sys_vp_phone_call" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="227dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="8(999)999-99-99"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="97dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
