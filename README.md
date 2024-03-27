@@ -1,2 +1,0 @@
-# androidstudio
-Labs android development
