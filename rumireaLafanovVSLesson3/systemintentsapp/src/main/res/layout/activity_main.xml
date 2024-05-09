@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:onClick="onClickCall"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/buttonOpenBrowser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonCall"
+        android:layout_marginTop="22dp"
+        android:onClick="onClickOpenBrowser"
+        android:text="Open Browser" />
+
+    <Button
+        android:id="@+id/buttonOpenMaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Maps"
+        android:onClick="onClickOpenMaps"
+        android:layout_below="@id/buttonOpenBrowser"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
